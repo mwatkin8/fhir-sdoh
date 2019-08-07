@@ -1,0 +1,77 @@
+{
+  "linkId": "employment_status",
+  "code": [
+    {
+      "system": "http://snomed.info/sct",
+      "code": "365525008"
+    }
+  ],
+  "text": "Which of the following describes your current employment status?",
+  "type": "question",
+  "required": true,
+  "answerOption": [
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "224364001",
+        "display": "In paid casual work"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "406156006",
+        "display": "In paid employment"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "224365000",
+        "display": "In paid seasonal work"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "160906004",
+        "display": "Self-employed"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "224379008",
+        "display": "Semi-retired"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "440584001",
+        "display": "Permanently unable to perform work activities due to medical condition"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "741062008",
+        "display": "Not in labor force (students, retired)"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "224456008",
+        "display": "On leave from work"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "73438004",
+        "display": "Unemployed"
+      }
+    }
+  ]
+}

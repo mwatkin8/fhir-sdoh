@@ -1,0 +1,21 @@
+{
+  "resourceType": "Questionnaire",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns='http://www.w3.org/1999/xhtml'><a name='mm'/></div>"
+  },
+  "id": "cf-1565200489270",
+  "title": "sdoh-questionnaire-1",
+  "status": "draft",
+  "publisher": "U of U Health",
+  "code": [
+    {
+      "system": "http://loinc.org/sdoh-questionnaire-valueset",
+      "code": "TBD"
+    }
+  ],
+  "subjectType": [
+    "Patient"
+  ],
+  "item": []
+}
