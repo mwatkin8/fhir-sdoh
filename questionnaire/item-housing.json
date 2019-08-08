@@ -1,0 +1,49 @@
+{
+  "linkId": "housing_status",
+  "code": [
+    {
+      "system": "http://snomed.info/sct",
+      "code": "365508006"
+    }
+  ],
+  "text": "Which of the following best describes your current housing accomodations?",
+  "type": "question",
+  "required": true,
+  "answerOption": [
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "26533002",
+        "display": "Apartment building living"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "113165003",
+        "display": "Duplex home living"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "82876001",
+        "display": "Living in mobile home"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "302145009",
+        "display": "Owns own home"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "60585007",
+        "display": "Slum area living"
+      }
+    }
+  ]
+}

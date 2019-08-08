@@ -1,0 +1,35 @@
+{
+  "linkId": "reading_status",
+  "code": [
+    {
+      "system": "http://snomed.info/sct",
+      "code": "365792003"
+    }
+  ],
+  "text": "Which of the following best describes your reading ability?",
+  "type": "question",
+  "required": true,
+  "answerOption": [
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "309251006",
+        "display": "Able to read"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "309253009",
+        "display": "Difficulty reading"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "309252004",
+        "display": "Unable to read"
+      }
+    }
+  ]
+}

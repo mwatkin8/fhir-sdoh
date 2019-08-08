@@ -1,0 +1,56 @@
+{
+  "linkId": "transportation_status",
+  "code": [
+    {
+      "system": "http://snomed.info/sct",
+      "code": "266934004"
+    }
+  ],
+  "text": "Which of the following describes your transportation?",
+  "type": "question",
+  "required": true,
+  "answerOption": [
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "160696009",
+        "display": "Transport distance too great "
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "160695008",
+        "display": "Transport too expensive"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "713458007",
+        "display": "Lack of access to transportation "
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "160687009",
+        "display": "Has access to a car"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "160686000",
+        "display": "Car owner"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "160690003",
+        "display": "Depends on public transport "
+      }
+    }
+  ]
+}

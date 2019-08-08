@@ -1,0 +1,56 @@
+{
+  "linkId": "household_status",
+  "code": [
+    {
+      "system": "http://snomed.info/sct",
+      "code": "365481000"
+    }
+  ],
+  "text": "Which of the following best describes your current household?",
+  "type": "question",
+  "required": true,
+  "answerOption": [
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "447051007",
+        "display": "Lives with spouse"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "408821002",
+        "display": "Lives with partner"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "160717008",
+        "display": "Divorced couple sharing house"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "430793000",
+        "display": "Lives with roommate"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "160725005",
+        "display": "Lives alone - help available"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "160726006",
+        "display": "Lives alone - no help available"
+      }
+    }
+  ]
+}
