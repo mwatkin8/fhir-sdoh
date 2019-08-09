@@ -77,7 +77,7 @@ async function displayResults(){
     let list = d3.select('#resource-list');
     list.append('li').attr('onclick','viewResource(this,\'Patient\',\'' + localStorage['patient_id'] + '\')').attr('class','top').append('p').text('Patient');
     list.append('li').attr('onclick','viewResource(this,\'Questionnaire\',\'' + localStorage['qID'] + '\')').append('p').text('Questionnaire');
-    let request = new Request(localStorage['server'] + '/QuestionnaireResponse?questionnaire=' + localStorage['qID'], {
+    let request = new Request(localStorage['server'] + '/QuestionnaireResponse?subject=' + localStorage['patient_id'] + 'questionnaire=' + localStorage['qID'], {
         method: 'get',
         headers: {'Authorization': 'Bearer ' + localStorage['access_token']}
     });
