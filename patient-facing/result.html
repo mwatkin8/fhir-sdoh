@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>SDOH Questionnaire - Result</title>
+  <!-- CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+  <!-- JS -->
+  <script src="js/script.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body class="bg-light" onload="displayResults()">
+
+<div class="container">
+
+  <div class="py-5 text-center">
+    <h2>Results</h2>
+  </div>
+
+  <div class="row">
+    <div class="col-md-5 order-md-2 mb-4">
+      <ul id="resource-list">
+      </ul>
+    </div>
+    <div class="col-md-7 order-md-2 mb-4">
+      <pre class="resource-box" style="height:700px;"><code id="view"></code></pre>
+    </div>
+  </div>
+
+  <hr class="mb-4" style="border: 1px dashed lightgray;">
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">SDOH Questionnaire - Result</p>
+      <p class="mb-1">University of Utah</p>
+      <p class="mb-1">2019</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
