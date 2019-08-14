@@ -1,0 +1,42 @@
+{
+  "linkId": "financial_circumstances",
+  "code": [
+    {
+      "system": "http://snomed.info/sct",
+      "code": "365550006"
+    }
+  ],
+  "text": "Which of the following describes your financial circumstances?",
+  "type": "question",
+  "required": true,
+  "answerOption": [ 
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "224172006",
+        "display": "High Household Income"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "224171004",
+        "display": "Moderate Household Income"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "224170003",
+        "display": "Low Household Income"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "224169004",
+        "display": "No Household Income"
+      }
+    }
+  ]
+}

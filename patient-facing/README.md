@@ -2,8 +2,8 @@
 This code renders a Questionnaire FHIR resource and translates the response of the patient into a QuestionnaireResponse FHIR resource.
 
 ## Instructions
-This example is built with NodeJS which must be installed on your computer. On MacOS, one way is through Homebrew with the command brew install node.
+We will use Docker because this server has additional dependencies.  Follow [this guide](https://docs.docker.com/install/) to install Docker on your machine and check installation success with docker -v. Then follow [this guide](https://docs.docker.com/compose/install/) to install Docker Compose and check that installation with docker-compose -v.
 
-To create the server needed for this example, first install the http-server tool using the command npm install -g http-server, then navigate to the <i>patient-facing</i> directory and launch a new server with the command http-server -p 5000.
+Launch the server with the command <code>docker-compose up --build</code>
 
-Navigate your web browser to http://localhost:5000 in order to view the example.
+Navigate your web browser to http://localhost:5050 in order to view the example.

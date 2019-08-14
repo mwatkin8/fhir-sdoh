@@ -1,0 +1,42 @@
+{
+  "linkId": "main_language",
+  "code": [
+    {
+      "system": "http://snomed.info/sct",
+      "code": "365453006"
+    }
+  ],
+  "text": "What is the main language you speak at home?",
+  "type": "question",
+  "required": true,
+  "answerOption": [ 
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "315570003",
+        "display": "Main Spoken Language English"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "315584008",
+        "display": "Main Spoken Language Spanish"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "698677008",
+        "display": "Main Spoken Language Quechua"
+      }
+    },
+    {
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "698887005",
+        "display": "Main Spoken Language Aymara"
+      }
+    }
+  ]
+}

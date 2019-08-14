@@ -10,7 +10,7 @@ async function launch(){
     let response = await fetch(request);
     let bundle = await response.json();
     if (bundle.total !== 0){
-        let r = bundle.entry[0].resource;
+        let r = bundle.entry[1].resource;
         window.qID = r.id;
         let questions = r.item;
         window.questionDict = {};
@@ -152,6 +152,7 @@ function loadPatient(){
 
     // load the app parameters stored in the session
     let params = JSON.parse(sessionStorage[state]);  // load app session
+    console.log(params);
     let tokenUri = params.tokenUri;
     let clientId = params.clientId;
     let secret = params.secret;
